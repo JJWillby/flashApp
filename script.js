@@ -32,9 +32,9 @@ let cardsRemaining=[]
 let stored;
 
 function preload(){
-   matcha=loadFont("assets/Matcha_Cih[1].ttf")
-   typewriter=loadFont("assets/Type_Machine[1].ttf")
-  subs=loadFont("assets/Hypero[1].ttf")
+   matcha=loadFont("assets/Matcha_Cih.ttf")
+   typewriter=loadFont("assets/Type_Machine.ttf")
+  subs=loadFont("assets/Hypero.ttf")
   tick=loadImage("assets/tick-svgrepo-com.svg")
   cross=loadImage("assets/cross-svgrepo-com.svg")
   rightArrow=loadImage("assets/right-arrow-svgrepo-com.svg")
