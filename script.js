@@ -33,11 +33,11 @@ let stored;
 
 function preload(){
    matcha=loadFont("assets/Matcha_Cih[1].ttf")
-   typewriter=loadFont("Type_Machine[1].ttf")
-  subs=loadFont("Hypero[1].ttf")
-  tick=loadImage("tick-svgrepo-com.svg")
-  cross=loadImage("cross-svgrepo-com.svg")
-  rightArrow=loadImage("right-arrow-svgrepo-com.svg")
+   typewriter=loadFont("assets/Type_Machine[1].ttf")
+  subs=loadFont("assets/Hypero[1].ttf")
+  tick=loadImage("assets/tick-svgrepo-com.svg")
+  cross=loadImage("assets/cross-svgrepo-com.svg")
+  rightArrow=loadImage("assets/right-arrow-svgrepo-com.svg")
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
